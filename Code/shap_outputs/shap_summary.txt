@@ -1,0 +1,15 @@
+SHAP Feature Importance Summary:
+Top features contributing to the model predictions:
+- SR2: Mean |SHAP| = 1.7409
+- T1: Mean |SHAP| = 1.7233
+- S1: Mean |SHAP| = 0.9921
+- GH1: Mean |SHAP| = 0.9311
+- SR1: Mean |SHAP| = 0.8892
+
+Interpretation:
+- Features with higher mean absolute SHAP values have a greater impact on predictions.
+- Positive SHAP values push predictions toward the positive class (1).
+- Negative SHAP values push predictions toward the negative class (0).
+- Beeswarm plot shows the distribution of SHAP values for each feature.
+- Bar plot summarizes mean absolute SHAP values for feature importance.
+- Dependence plots show how each feature's value affects predictions.
